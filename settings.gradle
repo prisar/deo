@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "deo"
 include ':app'
+include 'image_segmentation'
+//project('imagesegmentation').projectDir = new File('libs/image_segmentation')
